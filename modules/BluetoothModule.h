@@ -9,5 +9,6 @@
 
 // Function declarations
 void setupBluetooth();
+void transmitValue(String value);
 
 #endif

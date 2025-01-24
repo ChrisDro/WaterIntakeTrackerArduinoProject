@@ -3,11 +3,10 @@
 
 void setup() {
   Serial.begin(115200);
-
   setupBluetooth();
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  transmitValue("Hello World");
   delay(2000);
 }
